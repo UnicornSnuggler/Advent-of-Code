@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs';
 
-readFile('./Input.txt', 'utf8', (error, data) => {
+readFile('./_ Input.txt', 'utf8', (error, data) => {
     if (error) {
         console.error(error);
         return;
